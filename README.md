@@ -14,7 +14,7 @@ Usage
     
     loop() {
     
-      distance = _sRear.getDistance();
+      distance = sensor.getDistance();
       Serial.println(distance);
       
     }
